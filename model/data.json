@@ -1,0 +1,124 @@
+{
+    "intents": [
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": [
+                "Maaf, saya tidak mengerti apa yang kamu maksud.",
+                "Untuk saat ini, chatbot ini belum dapat menjawab pertanyaan kamu."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": ["halo", "hi", "hello", "selamat pagi", "selamat siang", "selamat sore"],
+            "responses": [
+                "Halo! Bagaimana saya bisa membantu Anda dengan mobil Anda hari ini?",
+                "Hai! Apa masalah yang Anda hadapi dengan mobil Anda?"
+            ]
+        },
+        {
+            "tag": "engine_problem",
+            "patterns": ["mesin mobil brebet", "mesin mobil tidak stabil"],
+            "responses": [
+                "Penyebab mobil Anda mengalami masalah tersebut kemungkinan adalah:\n1. Injeksi bahan bakar yang bermasalah\n2. Filter udara yang kotor\n3. Busi yang bermasalah\n4. Sensor-sensor yang tidak berfungsi dengan baik\n5. Timing belt yang longgar atau rusak\n6. Coil yang bermasalah\n\nSolusi yang bisa Anda coba adalah:\n1. Periksa dan bersihkan filter udara\n2. Periksa sistem bahan bakar dan injeksi\n3. Periksa kondisi busi\n4. Scan ECU untuk memeriksa sensor-sensor\n5. Periksa kondisi timing belt\n6. Tes kondisi coil"
+            ]
+        },
+        {
+            "tag": "starting_issue",
+            "patterns": ["mobil tidak mau start"],
+            "responses": [
+                "Penyebab mobil Anda mengalami masalah tersebut kemungkinan adalah:\n1. Aki lemah atau habis\n2. Masalah pada sistem starter\n3. Masalah pada sistem pengapian\n4. Pompa bahan bakar rusak\n5. Kabel-kabel yang longgar\n6. Security system mobil aktif\n\nSolusi yang bisa Anda coba adalah:\n1. Periksa dan isi ulang atau ganti aki\n2. Periksa motor starter\n3. Periksa sistem pengapian dan busi\n4. Periksa pompa bahan bakar\n5. Periksa semua koneksi kabel\n6. Reset security system mobil"
+            ]
+        },
+        {
+            "tag": "overheating",
+            "patterns": ["mobil overheat", "mesin panas saat digunakan"],
+            "responses": [
+                "Penyebab mobil Anda mengalami masalah tersebut kemungkinan adalah:\n1. Kurangnya coolant\n2. Radiator tersumbat atau rusak\n3. Termostat rusak\n4. Water pump bermasalah\n5. Kipas radiator tidak berfungsi\n6. Head gasket bocor\n\nSolusi yang bisa Anda coba adalah:\n1. Periksa dan tambahkan coolant\n2. Bersihkan radiator atau ganti jika rusak\n3. Periksa termostat\n4. Periksa kondisi water pump\n5. Periksa kipas radiator\n6. Lakukan tes kebocoran head gasket"
+            ]
+        },
+        {
+            "tag": "brake_issue",
+            "patterns": ["rem mobil tidak berfungsi"],
+            "responses": [
+                "Penyebab mobil Anda mengalami masalah tersebut kemungkinan adalah:\n1. Minyak rem habis atau kurang\n2. Ada kebocoran pada sistem rem\n3. Kampas rem aus\n4. Master rem bermasalah\n5. Caliper rem macet\n6. ABS bermasalah\n\nSolusi yang bisa Anda coba adalah:\n1. Periksa dan tambahkan minyak rem\n2. Cek sistem rem untuk kebocoran\n3. Ganti kampas rem yang sudah aus\n4. Periksa kondisi master rem\n5. Bersihkan dan perbaiki caliper\n6. Scan sistem ABS"
+            ]
+        },
+        {
+            "tag": "transmission_issue",
+            "patterns": ["transmisi bermasalah", "perpindahan gigi kasar", "mobil susah pindah gigi", "transmisi otomatis bermasalah"],
+            "responses": [
+                "Penyebab mobil Anda mengalami masalah tersebut kemungkinan adalah:\n1. Oli transmisi kotor atau kurang\n2. Clutch bermasalah\n3. Bearing transmisi rusak\n4. Sinkroniser aus\n5. TCU bermasalah (untuk transmisi otomatis)\n6. Solenoid transmisi rusak\n\nSolusi yang bisa Anda coba adalah:\n1. Ganti oli transmisi\n2. Periksa sistem kopling\n3. Periksa bearing transmisi\n4. Konsultasikan dengan bengkel transmisi\n5. Scan TCU\n6. Periksa solenoid transmisi"
+            ]
+        },
+        {
+            "tag": "oil_change",
+            "patterns": ["kapan harus ganti oli?", "berapa lama ganti oli mobil?", "ganti oli mobil"],
+            "responses": [
+                "Waktu ideal untuk mengganti oli mobil tergantung pada:\n1. Jenis oli yang digunakan:\n   - Oli mineral: setiap 5.000 km\n   - Oli semi sintetis: setiap 7.000 km\n   - Oli sintetis: setiap 10.000 km\n2. Kondisi penggunaan:\n   - Penggunaan dalam kota lebih sering ganti\n   - Penggunaan tol/jarak jauh bisa lebih lama\n3. Rekomendasi pabrikan mobil\n\nTanda-tanda oli perlu diganti:\n1. Oli berwarna hitam pekat\n2. Level oli berkurang signifikan\n3. Suara mesin kasar\n4. Performa mesin menurun"
+            ]
+        },
+        {
+            "tag": "fuel_system",
+            "patterns": [ "masalah injeksi"],
+            "responses": [
+                "Masalah pada sistem bahan bakar bisa disebabkan oleh:\n1. Injektor kotor atau tersumbat\n2. Filter bahan bakar kotor\n3. Pompa bahan bakar lemah\n4. Sensor oksigen rusak\n5. MAP/MAF sensor bermasalah\n6. Throttle body kotor\n\nSolusi yang dapat dilakukan:\n1. Bersihkan injektor\n2. Ganti filter bahan bakar\n3. Periksa tekanan pompa bahan bakar\n4. Ganti sensor yang bermasalah\n5. Bersihkan throttle body\n6. Gunakan bahan bakar berkualitas"
+            ]
+        },
+        {
+            "tag": "tire_issue",
+            "patterns": ["ban aus tidak rata", "ban cepat habis", "rotasi ban"],
+            "responses": [
+                "Masalah pada ban dapat disebabkan oleh:\n1. Tekanan ban tidak sesuai\n2. Alignment roda tidak tepat\n3. Shock absorber rusak\n4. Kebiasaan mengemudi\n5. Kualitas ban\n6. Rotasi ban tidak teratur\n\nSolusi yang dapat dilakukan:\n1. Periksa tekanan ban secara rutin\n2. Lakukan alignment roda\n3. Periksa kondisi suspensi\n4. Perbaiki cara mengemudi\n5. Gunakan ban berkualitas\n6. Lakukan rotasi ban setiap 10.000 km"
+            ]
+        },
+        {
+            "tag": "maintenance_schedule",
+            "patterns": ["jadwal servis", "perawatan rutin", "interval perawatan"],
+            "responses": [
+                "Jadwal perawatan berkala mobil:\n\nServis Ringan (setiap 5.000 km):\n1. Ganti oli mesin\n2. Cek filter oli\n3. Cek filter udara\n4. Cek rem\n5. Cek ban\n\nServis Sedang (setiap 10.000 km):\n1. Semua servis ringan\n2. Ganti filter oli\n3. Rotasi ban\n4. Cek sistem pengapian\n5. Cek transmisi\n\nServis Berat (setiap 20.000 km):\n1. Semua servis sedang\n2. Ganti filter udara\n3. Ganti filter bahan bakar\n4. Tune up mesin\n5. Cek sistem pendingin"
+            ]
+        },
+        {
+            "tag": "matic_issue",
+            "patterns": ["transmisi matic bermasalah", "matic tidak responsif"],
+            "responses": [
+                "Penyebab mobil Anda mengalami masalah pada transmisi matic kemungkinan adalah:\n1. Oli transmisi matic habis atau kotor\n2. Kerusakan pada solenoid\n3. Sistem transmisi matic aus\n\nSolusi yang bisa Anda coba adalah:\n1. Periksa dan ganti oli transmisi matic secara berkala\n2. Periksa dan perbaiki solenoid\n3. Cek kondisi sistem transmisi matic pada bengkel"
+            ]
+        },
+        {
+            "tag": "starting_issue",
+            "patterns": ["mobil susah dihidupkan", "kenapa mobil saya sulit dinyalakan?", "mobil tidak mau start", "starter bermasalah"],
+            "responses": [
+                "Penyebab mobil Anda mengalami masalah tersebut kemungkinan adalah:\n1. Aki lemah atau habis\n2. Masalah pada sistem starter\n3. Masalah pada sistem pengapian\n4. Pompa bahan bakar rusak\n5. Kabel-kabel yang longgar\n6. Security system mobil aktif\n\nSolusi yang bisa Anda coba adalah:\n1. Periksa dan isi ulang atau ganti aki\n2. Periksa motor starter\n3. Periksa sistem pengapian dan busi\n4. Periksa pompa bahan bakar\n5. Periksa semua koneksi kabel\n6. Reset security system mobil"
+            ]
+        },
+        {
+            "tag": "electrical_system",
+            "patterns": ["mobil mati mendadak", "lampu dashboard menyala", "aki sering habis"],
+            "responses": [
+                "Masalah kelistrikan dapat disebabkan oleh:\n1. Alternator rusak\n2. Aki lemah atau rusak\n3. Kabel-kabel putus atau korosi\n4. Fuse putus\n5. Sensor-sensor bermasalah\n6. ECU bermasalah\n\nSolusi yang dapat dilakukan:\n1. Tes kondisi alternator\n2. Periksa kondisi aki\n3. Periksa semua kabel dan sambungan\n4. Periksa dan ganti fuse yang putus\n5. Scan ECU untuk diagnosa lebih lanjut"
+            ]
+        },
+        {
+            "tag": "suspension",
+            "patterns": ["suspensi keras", "mobil goyang", "bunyi saat lewat polisi tidur", "shock absorber rusak"],
+            "responses": [
+                "Masalah pada sistem suspensi dapat disebabkan oleh:\n1. Shock absorber aus atau rusak\n2. Per patah atau lemah\n3. Bushing suspensi aus\n4. Ball joint aus\n5. Stabilizer bar rusak\n6. Lower arm bengkok\n\nSolusi yang dapat dilakukan:\n1. Ganti shock absorber\n2. Periksa dan ganti per jika perlu\n3. Ganti bushing yang aus\n4. Ganti ball joint\n5. Perbaiki atau ganti stabilizer bar\n6. Alignment roda"
+            ]
+        },
+        {
+                "tag": "maintenance",
+                "patterns": [
+                  "Bagaimana cara merawat mobil?",
+                  "Kapan waktu terbaik untuk mengganti oli?",
+                  "Apa yang harus saya lakukan jika ban bocor?"
+                ],
+                "responses": [
+                  "Pastikan mobilmu diservis setiap 6 bulan atau sesuai buku panduan.",
+                  "Oli sebaiknya diganti setiap 5.000 hingga 10.000 km, tergantung jenis olinya.",
+                  "Jika ban bocor, gunakan ban cadangan sementara dan segera perbaiki di bengkel."
+                ]
+        }
+    ]
+}
