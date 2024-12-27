@@ -67,8 +67,8 @@ Chatbot ini menggunakan dataset yang telah dirancang khusus untuk menangani perc
 
 ## 🎥 **Demo**
 
-Ingin melihat chatbot ini beraksi? Tonton demo interaktifnya melalui tautan berikut:
-[Demo Chatbot Servis Mobil](demo.gif)
+Ingin melihat chatbot ini beraksi? Tonton demo interaktifnya berikut:
+![Demo Video](demo.gif)
 
 ---
 
