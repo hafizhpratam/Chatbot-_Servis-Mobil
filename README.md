@@ -34,7 +34,7 @@ Pastikan Anda telah menginstal:
 
 1. **Clone Repository**:
    ```bash
-   git clone https://github.com/hafizhpratam/Chatbot_Servis-Mobil.git
+   git clone https://github.com/hafizhpratam/Chatbot_Servis_Mobil.git
    cd Chatbot-servis-mobil
    ```
 
